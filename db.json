@@ -1,0 +1,78 @@
+{
+  "siswa": [
+    {
+      "id_sisa": 1,
+      "no_induk_siswa": "SM1234",
+      "tgl_lahir_siswa": "31-03-2002",
+      "nama_siswa": "ADEL",
+      "alamat_siswa": "BANJARSARI",
+      "jenis_kelamin_siswa": "PEREMPUAN"
+    },
+    {
+      "id_siswa": 2,
+      "no_induk_siswa": "SM5678",
+      "tgl_lahir_siswa": "04-03-2002",
+      "nama_siswa": "ECHAN",
+      "alamat_siswa": "TEMBALANG",
+      "jenis_kelamin_siswa": "LAKI-LAKI"
+    }
+  ],
+  "musik": [
+    {
+      "id": 1,
+      "nama": "GITAR"
+    },
+    {
+      "id": 2,
+      "nama": "PIANO"
+    },
+    {
+      "id": 3,
+      "nama": "SULING"
+    }
+  ],
+  "jadwalGuru": [
+    {
+      "id": 1,
+      "id_guru": 1,
+      "alat_musik": "GITAR",
+      "nama_guru": "JAEMIN",
+      "id_hari": 1,
+      "hari": "Senin dan Rabu",
+      "waktu": "19.30 - 20.30 WIB"
+    },
+    {
+      "id": 2,
+      "id_guru": 2,
+      "alat_musik": "PIANO",
+      "nama_guru": "JENNIE",
+      "id_hari": 2,
+      "hari": "Selasa dan Jumat",
+      "waktu": "19.30 - 20.30 WIB"
+    }
+  ],
+  "pendaftaran": [
+    {
+      "id": "123",
+      "no_induk_siswa": "",
+      "tgl_periksa": "",
+      "alat_musik": "",
+      "guru": ""
+    },
+    {
+      "id": "124",
+      "no_induk_siswa": "SM1234",
+      "alat_musik": "GITAR",
+      "periode": "November",
+      "guru": "JAEMIN"
+    },
+    {
+      "id": "125",
+      "no_induk_siswa": "SM5678",
+      "nama_siswa": "JISOO",
+      "alat_musik": "PIANO",
+      "periode": "Juli",
+      "guru": "JENNIE"
+    }
+  ]
+}
